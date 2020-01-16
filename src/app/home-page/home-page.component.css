@@ -1,0 +1,80 @@
+.fxContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carousel {
+    width: 85%;
+    margin: 0 7.5%;
+}
+
+.p1 {
+    padding: 5% 0;
+}
+
+.box {
+    text-align: center;
+    margin: 30px 50px;
+}
+
+.box1 {
+    flex: 1;
+    margin-left: 7.5%;
+    padding: 5% 3%;
+    text-align: center;
+}
+
+.innerBox1 {
+    padding: 5%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.box2 {
+    flex: 1;
+    margin-right: 7.5%;
+    padding: 5%;
+}
+
+.footer {
+    width: 100%;
+}
+
+.space {
+    margin-top: 30px;
+}
+
+h3, h4 {
+    font-family: 'Times New Roman', cursive;
+}
+
+hr {
+    width: 85%;
+    border-top: 1px solid black;
+    margin: 0 7.5%;
+    margin-top: 3%;
+}
+
+a {
+    color: rgb(17, 14, 14);
+    text-decoration: underline;
+}
+
+p {
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    max-height: 790px;
+    display: block;
+}
+
+@media screen and (max-width: 959px) {
+    .fxContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}

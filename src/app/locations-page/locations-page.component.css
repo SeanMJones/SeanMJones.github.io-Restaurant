@@ -1,0 +1,33 @@
+.mapContainer {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    width: 100%;
+}
+
+hr {
+    width: 85%;
+    border-top: 1px solid black;
+}
+
+.fxContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    text-align: center;
+}
+
+.space {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 959px) {
+    .fxContainer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .box {
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,46 @@
+<div class="fxContainer">
+    <div class="box1">
+        <form>
+            <h4>Make a Reservation</h4>
+            <div>
+                <label for="fName">First Name</label>
+                <input id="fName" type="text" name="fName" size="20">
+            </div>
+            <div>
+                <label for="lName" style="margin-left: 10px;">Last Name</label>
+                <input id="lName" type="text" name="lName" size="20" style="margin-left: 10px;">
+            </div>
+            <br style="clear: both;">
+            <label for="pNum">Phone #</label>
+            <input id="pNum" type="tel" name="pNum" pattern="[0-9]" maxlength="10" size="9" placeholder="1234567890">
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email" size="47" placeholder="example@gmail.com">
+            <label for="date">Date</label>
+            <input id="date" type="text" placeholder="Reservation Date" bsDatepicker size="47" [bsConfig]="bsConfig">
+            <label for="time">Time</label>
+            <input id="time" type="text" placeholder="12:00pm">
+            <label for="numGuests">Number of Guests</label>
+            <input id="numGuests" type="text">
+            <br>
+            <label style="display: inline;">Locations</label>
+            <select name="location">
+                <option value="wa">Washington</option>
+                <option value="ld">London</option>
+                <option value="bl">Berlin</option>
+                <option value="ty">Tokyo</option>
+            </select>
+            <br><br>
+            <label for="inquiry">Additional Notes</label>
+            <textarea id="inquiry" rows="11" cols="49" name="inquiry"></textarea>
+            <button id="submit" type="button" class="btn btn-info" style="margin-top: 10px;">
+                Submit
+            </button>
+        </form>
+    </div>
+    <div class="box2">
+        <img src="../../assets/notebookRes.jpg" class="responsive" fxHide.xs="true" fxHide.sm="true">
+    </div>
+    <div class="footer">
+        <app-footer></app-footer>
+    </div>
+</div>

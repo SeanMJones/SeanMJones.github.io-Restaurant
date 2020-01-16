@@ -1,0 +1,46 @@
+.fxContainer {
+    display: flex;
+    padding-left: 6.2%;
+    padding-right: 6.2%;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+
+.seansLogo {
+    max-height: 100px;
+    max-width: 100px;
+    height: auto;
+    width: auto;
+}
+
+.menu {
+    border: none;
+    flex-basis: 50%;
+    background-color: rgb(238, 238, 238);
+}
+
+.middle {
+    flex: 1;
+}
+
+mat-toolbar {
+    background-color: rgb(238, 238, 238);
+}
+
+mat-toolbar a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 10px;
+    color: rgb(17, 14, 14);
+}
+
+a {
+    font-family: 'Times New Roman',cursive;
+}

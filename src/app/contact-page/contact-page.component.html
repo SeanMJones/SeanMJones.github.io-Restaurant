@@ -1,0 +1,46 @@
+<div class="fxContainer">
+    <div class="box1">
+        <img src="../assets/kitchenContact.jpg" class="responsive" fxHide.xs="true" fxHide.sm="true">
+    </div>
+    <div class="box2">
+        <h4>Contact Us</h4>
+        <form>
+            <div>
+                <label for="fName">First Name</label>
+                <input id="fName" type="text" name="fName" size="25">
+            </div>
+            <div>
+                <label style="margin-left: 10px;" for="lName">Last Name</label>
+                <input style="margin-left: 10px;" id="lName" type="text" name="lName" size="25">
+            </div>
+            <br style="clear: both;">
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email" size="57" placeholder="example@gmail.com">
+            <br>
+            <label style="display: inline;">Subject</label>
+            <select name="subject">
+                <option value="ri">Reservation Inquiry</option>
+                <option value="ce">Catering and Event</option>
+                <option value="gi">General Inquiry</option>
+                <option value="ci">Comments or Issues</option>
+            </select>
+            <label style="display: inline; margin-left: 10px;">Locations</label>
+            <select name="location">
+                <option value="wa">Washington</option>
+                <option value="ld">London</option>
+                <option value="bl">Berlin</option>
+                <option value="ty">Tokyo</option>
+            </select>
+            <br style="clear: both;">
+            <br>
+            <label for="inquiry">Inquiry</label>
+            <textarea rows="20" cols="59" name="inquiry" id="inquiry" style="overflow: auto;"></textarea>
+            <button id="submit" type="button" class="btn btn-info" style="margin-top: 10px;">
+                Submit
+            </button>
+        </form>
+    </div>
+    <div class="footer">
+        <app-footer></app-footer>
+    </div>
+</div>

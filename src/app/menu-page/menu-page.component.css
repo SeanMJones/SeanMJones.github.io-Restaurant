@@ -1,0 +1,38 @@
+.fxContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.carousel {
+    width: 85%;
+    margin: 0 7.5%;
+}
+
+.carousel img {
+    width: 100%;
+    max-height: 600px;
+    display: block;
+}
+
+.left, .desserts {
+    margin: 0 7.5%;
+    width: 20%;
+}
+
+.burgers {
+    width: 40%;
+}
+
+.burgers img, .salads img, .desserts img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+hr {
+    width: 100%;
+    border-top: 1px solid black;
+    margin-top: 3%;
+}
