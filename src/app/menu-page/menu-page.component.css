@@ -15,24 +15,50 @@
     display: block;
 }
 
-.left, .desserts {
+.desserts, .drinks {
     margin: 0 7.5%;
     width: 20%;
 }
 
-.burgers {
-    width: 40%;
+.desserts, .drinks, .soups {
+    font-size: large;
 }
 
-.burgers img, .salads img, .desserts img {
+.left {
+    margin-left: 7.5%;
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    margin-right: 7.5%;
+}
+
+.middleLeft, .middleRight {
+    flex: 1;
+    margin: 0 1%;
+}
+
+.sandwiches img, .salads img, .entrees img {
     border-radius: 50%;
     height: 100px;
     width: 100px;
     float: left;
 }
 
+h4 {
+   text-align: center;
+}
+
 hr {
     width: 100%;
     border-top: 1px solid black;
     margin-top: 3%;
+}
+
+@media screen and (max-width: 959px) {
+    .fxContainer {
+        display: flex;
+        flex-direction: column;
+    }
 }

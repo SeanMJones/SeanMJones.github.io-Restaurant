@@ -72,7 +72,7 @@ img {
     display: block;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 953px) {
     .fxContainer {
         display: flex;
         flex-direction: column;
