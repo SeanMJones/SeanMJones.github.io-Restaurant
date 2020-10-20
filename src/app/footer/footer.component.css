@@ -1,3 +1,14 @@
+/* 
+    Last Updated: 10/18/2020
+    File Name: footer.component.css
+    Description: 
+        Contains the CSS code for the footer displayed on the bottom of all pages of the website.
+    Related Files:
+        footer.component.html
+        footer.component.ts
+        footer.component.spec.ts
+*/
+
 div {
     text-align: center;
 }

@@ -1,3 +1,14 @@
+/* 
+    Last Updated: 10/18/2020
+    File Name: header.component.css
+    Description: 
+        Contains the CSS code for the header displayed at the top of all pages on the website.
+    Related Files:
+        header.component.ts
+        header.component.html
+        header.component.spec.ts
+*/
+
 .fxContainer {
     display: flex;
     padding-left: 6.2%;
@@ -11,7 +22,6 @@
 .right {
     flex: 1;
 }
-
 
 .seansLogo {
     max-height: 100px;

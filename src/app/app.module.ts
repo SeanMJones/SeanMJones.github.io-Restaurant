@@ -1,3 +1,16 @@
+/* 
+    Last Updated: 10/20/2020
+    File Name: app.module.ts
+    Description: 
+        Contains all the imported modules used throughout the entire website.
+    Related Files:
+        app.component.ts
+        app.component.html
+        app.component.css
+        app.component.spec.ts
+        app-routing.module.ts
+*/
+
 //Angular Modules 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';

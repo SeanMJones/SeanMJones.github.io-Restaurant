@@ -1,3 +1,15 @@
+/* 
+    Last Updated: 10/18/2020
+    File Name: menu-page.component.css
+    Description: 
+        Contains the CSS code for the menu page of the website in which all food options are listed
+        that are available at the restaurant.
+    Related Files:
+        menu-page.component.ts
+        menu-page.component.hmtl
+        menu-page.component.spec.ts 
+*/
+
 .fxContainer {
     display: flex;
     flex-direction: row;

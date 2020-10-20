@@ -3,9 +3,8 @@
 
 ## Purpose
 The purpose of this project is to demonstrate knowledge of using Angular by creating a fake restaurant website.
-The project features a complete website with a menu page, reservation page, home page, location page, and contact page.
-The website is built with mobile compatibility in mind meaning the website would be readable and easily usable when using
-any mobile device.
+The project features a menu page, reservation page, home page, location page, and contact page.
+The website is flexible meaning it easily usable on mobile devices as well as computers.
 
 ## Running the website
 

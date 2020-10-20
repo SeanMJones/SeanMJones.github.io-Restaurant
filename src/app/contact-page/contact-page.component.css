@@ -1,3 +1,15 @@
+/* 
+    Last Updated: 10/18/2020
+    File Name: contact-page.component.css
+    Description: 
+        Contains the CSS code for the contact page of the website in 
+        which the user is able to contact the restaurant via email.
+    Related Files:
+        contact-page.component.html
+        contact-page.component.ts
+        contact-page.component.spec.ts
+*/
+
 h4, div, label {
     color: rgb(42, 42, 42);
 }
